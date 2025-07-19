@@ -1,0 +1,39 @@
+#reviews {
+  max-width: 320px;
+  margin: auto;
+  padding: 0;
+  text-align: left;
+  max-height: 400px;     /* iframe の高さに合わせて調整 */
+  overflow-y: auto;
+}
+.review-item {
+  background: #fff;
+  color: #333;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.review-header .nick {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.review-header .meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+.review-item .body {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.not-found,
+.no-reviews {
+  color: #fff;
+  text-align: center;
+  margin: 16px 0;
+}
